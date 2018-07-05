@@ -13,7 +13,7 @@ namespace RingBuffer
         private int _tail;
         private readonly int _capacity;
 
-        public RingBuffer(int capacity = 0x1000)
+        public RingBuffer(int capacity = 0x100)
         {
             _capacity = capacity;
             _buf = new T[_capacity];
